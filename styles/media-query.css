@@ -10,7 +10,7 @@
         height: 250px;
     }
 
-    section#login > div#image {
+    section#login > div.image-cacun {
         float: left;
         width: 30%;
         height: 90%;
