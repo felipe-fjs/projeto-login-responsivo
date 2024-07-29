@@ -20,7 +20,7 @@ main {
     height: 100vh;
 }
 
-section#login {
+section.form-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,41 +33,30 @@ section#login {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.471);
 
     transition: 1s;
-    /* transition: width 0.5s, height .5s; */
-    /* transition-timing-function: ease; */
+    transition: width 0.8s, height .8s;
+    transition-timing-function: ease;
 }
-section#signup {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    background-color: white;
-    width: 300px;
-    height: 500px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.471);
-
-    transition: 1s;
+section#signup-container {
+    height: 550px;
+   
 }
 
-section#login > div.image-cacun,
-section#signup >  div.image-cacun {
+section.form-container > div.image-cacun{
     background: url('../images/cacun2024-logo.png') no-repeat;
     background-position: center center;
     background-size: contain;
     height: 250px;
 }
 
-section#login > div.form {
+section.form-container > div.form {
     width: 100%;
     padding: 10px;
 }
-section#login > div.form > p,
-section#login > div.form > form > p {
+section.form-container > div.form > p,
+section.form-container > div.form > form > p {
     margin-bottom: 10px;
 }
-section#login > div.form > form > p >input {
+section.form-container > div.form > form > p >input {
     border-radius: 5px;
     border: 0.5px solid grey;
     height: 30px;
@@ -75,7 +64,7 @@ section#login > div.form > form > p >input {
     text-align: center;
 }
 /* button do form */
-section#login > div.form > form > input {
+section.form-container > div.form > form > input{
     display: block;
     margin: auto;
     width: 30%;
@@ -84,7 +73,7 @@ section#login > div.form > form > input {
     border-radius: 3px;
     cursor: pointer;
 }
-section#login > div.form > form > input:hover,
-section#login > div.form > form > p >input:hover{
+section.form-container > div.form > form > input:hover,
+section.form-container > div.form > form > p > input:hover{
     box-shadow: 0 0 3px black;
 }

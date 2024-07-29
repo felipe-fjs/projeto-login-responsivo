@@ -5,19 +5,22 @@
     body {
         background-image: linear-gradient(to bottom,#50723C 40%, #3c5272);
     }
-    section#login {
+    section.form-container {
         width: 600px;
         height: 250px;
     }
+    section#signup-container {
+        height: 310px;
+    }
 
-    section#login > div.image-cacun {
+    section.form-container > div.image-cacun{
         float: left;
         width: 30%;
         height: 90%;
         margin: 5px;
     }
 
-    section#login > div.form {
+    section.form-container > div.form {
         float: right;
         width: 60%;
         height: 100%;
