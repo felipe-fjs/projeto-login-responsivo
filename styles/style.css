@@ -37,7 +37,7 @@ section#login {
     /* transition-timing-function: ease; */
 }
 
-section#login > div#image {
+section#login > div.image-cacun {
     background: url('../images/cacun2024-logo.png') no-repeat;
     background-position: center center;
     background-size: contain;
